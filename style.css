@@ -1,0 +1,41 @@
+body{
+    padding: 0px;
+    background-color: #0033cc;
+    color:aliceblue;
+
+}
+
+header{
+    border-bottom: white 2px solid;
+    margin: 0px;
+    width: 100%;
+    display: block;
+
+}
+
+.sidenav{
+    border-right: 2px solid white;
+    padding:0px;
+
+}
+
+ul{
+    list-style-type: none;
+    padding:0px;
+
+}
+
+a{
+    color:white;
+    font-style: normal;
+    text-decoration: none;
+
+}
+
+.content{
+    width:75%;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    background-color: white;
+    
+}
