@@ -1,21 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
 body{
     padding: 0px;
-    background-color: #0033cc;
-    color:aliceblue;
+    background-color: whitesmoke;
+    color: black;
 
 }
 
 header{
-    border-bottom: white 2px solid;
     margin: 0px;
     width: 100%;
     display: block;
+    margin-bottom: 5px;
+    background-color: #192a19;
+    height: 50px;
+    color: white;
+
+}
+
+header h1{
+    font-weight: normal;
 
 }
 
 .sidenav{
     border-right: 2px solid white;
     padding:0px;
+    display:inline;
+    width:30%;
 
 }
 
@@ -26,16 +45,49 @@ ul{
 }
 
 a{
-    color:white;
+    color: black;
     font-style: normal;
     text-decoration: none;
 
 }
 
 .content{
-    width:75%;
-    border-left: 2px solid white;
-    border-right: 2px solid white;
-    background-color: white;
-    
+    width:70%;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    color:black;
+    display: block;
+    margin:auto;
+    text-align:left;
+    padding: 10px;
+
 }
+
+section{
+    text-align: center;
+
+}
+
+div h1{
+    text-align: left;
+    font-size: 400%;
+
+}
+
+.explaining{
+    background-color: #8c8c8c;
+    padding:5px;
+    margin: 5px;
+    border-radius: 10px;
+    line-height: 200%;
+
+}
+
+.code{
+    display: block;
+    background-color: white;
+    border-radius: 5px;
+    border-left: 10px solid #006600;
+
+}
+
